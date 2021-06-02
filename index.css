@@ -1,0 +1,84 @@
+main, body, html{
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-family: 'Amatic SC';
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+    background-color: rgb(247, 229, 207);
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: rgb(55, 53, 53);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* .logo {
+    float: left;
+    padding:5px 0;
+    height: auto;
+    width: auto;
+    max-height: 50px;
+    max-width: 50px;
+} */
+
+nav {
+    float:right;
+    opacity: 0.85;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 15px;
+    position: relative;
+    color: rgb(247, 229, 207);
+}
+
+nav a{
+    color: #fbfbfc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: rgb(11, 98, 129);
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
