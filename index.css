@@ -91,16 +91,15 @@ nav a:hover::before {
     font-family: 'Poppins', sans-serif;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-}
-
-
 body {
     min-height: 100vh;
     background: linear-gradient(rgb(60, 60, 60), rgb(179, 177, 177));
     overflow: hidden;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
 }
 ul li {
     list-style: none;
@@ -108,8 +107,9 @@ ul li {
 }
 
 ul li a {
-    position: sticky;
+    position: relative;
     display: flex;
+    flex-direction: row;
     color: transparent;
     -webkit-text-stroke: 1px rgb(233, 240, 134);
     font-size: 3em;
@@ -140,4 +140,8 @@ ul li a:hover:after {
     z-index: 2;
     -webkit-text-stroke: 1px #000;
     transform: translate(20px, -20px);
-} 
+}
+
+.container {
+    display: flex;
+}
