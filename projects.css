@@ -12,10 +12,56 @@ body {
     overflow: hidden;
 }
 
-h1 {
+/* h1 {
     font-size: 4em;
     font-family: 'Poppins', sans-serif;
     display: flex;  
     justify-content: center;
-    
+} */
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 30px;
+}
+
+ul li a {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(233, 240, 134);
+    font-size: 3em;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 1.2em;
+}
+ul li a:hover{
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    transition: 0.5s;
+}
+ul li a:before , ul li a:after{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+ul li a:hover:before {
+    color: rgb(162, 215, 132);
+    z-index: 1;
+    -webkit-text-stroke: 1px #000;
+    transform: translate(10px, -10px);
+}
+ul li a:hover:after {
+    color: rgb(26, 102, 111);
+    z-index: 2;
+    -webkit-text-stroke: 1px #000;
+    transform: translate(20px, -20px);
 }
