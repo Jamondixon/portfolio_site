@@ -9,7 +9,12 @@
 body {
     min-height: 100vh;
     background: linear-gradient(rgb(60, 60, 60), rgb(179, 177, 177));
-    overflow: hidden;
+    
+}
+
+.scroll {
+    overflow-x:hidden;
+    overflow-y:auto
 }
 
 /* h1 {
@@ -63,4 +68,20 @@ ul li a:hover:after {
     z-index: 2;
     -webkit-text-stroke: 1px #000;
     transform: translate(20px, -20px);
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume {
+    width: 70vw;
+    height: 130vh;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
 }
