@@ -11,3 +11,10 @@ body {
     background: linear-gradient(rgb(60, 60, 60), rgb(179, 177, 177));
     overflow: hidden;
 }
+
+h1 {
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    display: flex;  
+    justify-content: center;
+}
