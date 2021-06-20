@@ -34,7 +34,7 @@ ul li a {
     display: flex;
     flex-direction: row;
     color: transparent;
-    -webkit-text-stroke: 1px rgb(233, 240, 134);
+    -webkit-text-stroke: 1px #16324f;
     font-size: 3em;
     font-weight: 900;
     text-decoration: none;
@@ -42,7 +42,7 @@ ul li a {
 }
 ul li a:hover{
     color: #fff;
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #3e92cc;
     transition: 0.5s;
 }
 ul li a:before , ul li a:after{
@@ -53,14 +53,14 @@ ul li a:before , ul li a:after{
     transition: 0.5s;
 }
 ul li a:hover:before {
-    color: rgb(162, 215, 132);
+    color: #2a628f;
     z-index: 1;
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #13293d;
     transform: translate(10px, -10px);
 }
 ul li a:hover:after {
     color: rgb(26, 102, 111);
     z-index: 2;
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #13293d;
     transform: translate(20px, -20px);
 }

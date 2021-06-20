@@ -55,7 +55,7 @@ ul li a:before , ul li a:after{
 ul li a:hover:before {
     color: #2a628f;
     z-index: 1;
-    -webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #13293d;
     transform: translate(10px, -10px);
 }
 ul li a:hover:after {
