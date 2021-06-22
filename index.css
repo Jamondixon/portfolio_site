@@ -1,12 +1,12 @@
-/* main, body, html{
+main, body, html{
     height: 100%;
     margin:0;
     font-size: 16px;
-    font-family: 'Amatic SC';
+    font-family: 'Poppins';
     font-weight: 400;
     line-height: 1.8em;
     color:#666;
-    background-color: rgb(247, 229, 207);
+    background-color: #3E92CC;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 }
 
 header{
-    background: rgb(55, 53, 53);
+    background: rgb(45, 43, 43);
 }
 
 header::after {
@@ -29,16 +29,16 @@ header::after {
     clear: both;
 }
 
-/* .logo {
+.logo {
     float: left;
     padding:5px 0;
     height: auto;
     width: auto;
-    max-height: 50px;
-    max-width: 50px;
-} */
+    max-height: 100px;
+    max-width: 100px;
+}
 
-/* nav {
+nav {
     float:right;
     opacity: 0.85;
 }
@@ -65,7 +65,7 @@ nav a{
 }
 
 nav a:hover {
-    color: lightblue;
+    color: #2A628F;
 }
 
 nav a::before {
@@ -73,7 +73,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 0%;
-    background-color: rgb(11, 98, 129);
+    background-color: #3781BE;
     position: absolute;
     top: 0;
     transition: all ease-in-out 500ms;
@@ -81,11 +81,90 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
-} */ 
+} 
 
+.ptext-first{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: left;
+    color: black;
+    font-size: 70px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Rock Salt';
+}
+
+.ptext-last{
+    position: absolute;
+    top:80%;
+    width: 100%;
+    text-align: right;
+    color: black;
+    font-size: 60px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Rock Salt';
+}
+
+footer {
+    background-color: whitesmoke;
+    color: rgb(75, 74, 74);
+    max-height: 150px;
+}
+
+footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(75, 74, 74);
+    letter-spacing: 5px;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    background-color: whitesmoke;
+    font-family: 'Amatic SC';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.media {
+    top: 20%;
+    left: 50%;
+    color: rgb(75, 74, 74);
+}
+
+.icons {
+    list-style: none;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px 20px;
+    max-width: 180px;
+    transition: .5s;
+
+}
+
+i:hover {
+    color: black;
+    border: 1px solid whitesmoke;
+    transition: .5s;
+}
+
+.button:hover {
+    color: black;
+    transition: .5s;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -144,4 +223,4 @@ ul li a:hover:after {
 
 .container {
     display: flex;
-}
+} */
