@@ -20,7 +20,7 @@ a {
 }
 
 header{
-    background: rgb(45, 43, 43);
+    background: rgb(74, 72, 72);
 }
 
 header::after {
@@ -31,7 +31,7 @@ header::after {
 
 .logo {
     float: left;
-    padding:5px 0;
+    padding:5px 50px;
     height: auto;
     width: auto;
     max-height: 100px;
@@ -52,20 +52,20 @@ nav ul{
 nav li{
     display: inline-block;
     margin-left: 25px;
-    padding-top: 15px;
+    padding-top: 25px;
     position: relative;
     color: rgb(247, 229, 207);
 }
 
 nav a{
-    color: #fbfbfc;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 25px;
 }
 
 nav a:hover {
-    color: #2A628F;
+    color: #ff0202;
 }
 
 nav a::before {
@@ -73,7 +73,7 @@ nav a::before {
     display: block;
     height: 5px;
     width: 0%;
-    background-color: #3781BE;
+    background-color: #02ffff;
     position: absolute;
     top: 0;
     transition: all ease-in-out 500ms;
@@ -101,7 +101,7 @@ nav a:hover::before {
     width: 100%;
     text-align: right;
     color: black;
-    font-size: 60px;
+    font-size: 70px;
     letter-spacing: 8px;
     text-transform: uppercase;
     font-family: 'Rock Salt';
