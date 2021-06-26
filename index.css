@@ -85,29 +85,6 @@ nav a:hover::before {
     width: 100%;
 } 
 
-.ptext-first{
-    position: absolute;
-    top:50%;
-    width: 100%;
-    text-align: left;
-    color: black;
-    font-size: 70px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    font-family: 'Dancing Script', cursive;
-}
-
-.ptext-last{
-    position: absolute;
-    top:80%;
-    width: 100%;
-    text-align: right;
-    color: black;
-    font-size: 70px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-    font-family: 'Dancing Script', cursive;
-}
 
 footer {
     background-color: whitesmoke;
